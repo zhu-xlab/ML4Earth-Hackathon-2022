@@ -21,7 +21,7 @@ The challenge is to predict crop yields using machine learning and remote sensin
 ## Important Links
 * The hackathon rules are given [here](https://ml4earth.devpost.com/).
 * The starter pack notebook is given [here](https://github.com/zhu-xlab/ML4Earth-Hackathon-2022/blob/main/source/use_case_example.ipynb).
-* The data reading functions are given under folder [source/datasets](https://github.com/zhu-xlab/ML4Earth-Hackathon-2022/tree/main/source/dataset) where:
+* The data reading functions are given under folder [source/datasets](https://github.com/zhu-xlab/ML4Earth-Hackathon-2022/tree/main/source/datasets) where:
     * *dataset_npy.py* is for reading the aggregated data for the participants with limited computational sources,
     * *dataset_tif.py* is for reading the raw data composed of layers of satellite images and climate variables.
 * The **dataset** and use case introduction video can be found [download here](https://syncandshare.lrz.de/getlink/fiUh1RofUeMbugsSGD19QX/).
