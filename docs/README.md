@@ -276,11 +276,3 @@ Table 5: Index of features in .npy files.</strong>
 </p>
 &nbsp;
 <br />
-
-We recommend reading the yield tables as:
-
-        df = pandas.read_csv('path/corn.csv',dtype=str) 
-
-to avoid losing GEOID records with zero prefix. This in turn converts the Value field to string which can be reverted to float using 
-
-        df['Value'] = df.apply(lambda row: float(row['Value']), axis=1)
