@@ -58,21 +58,3 @@ class YieldDataset(data.Dataset):
             return torch.from_numpy(features), torch.tensor(row['yield']), row['id']
         else:
             return torch.from_numpy(features), torch.tensor(row['yield'])
-
-	
-if __name__ == '__main__':
-    # to run
-    image_folder = '../data/yieldxtreme_v1/'
-    label_path = '../data/yieldxtreme_v1/labels.json'
-    crop_type = 1
-    return_id = True
-    year=2021
-
-    from torch.utils.data import DataLoader
-    yield_dataset = YieldDataset(image_folder, label_path, crop_type, year, return_id)
-    training_generator = DataLoader(yield_dataset)
-    # train_features, train_labels = next(iter(training_generator))
-    for local_batch, local_labels, id in training_generator:
-        # print(local_batch, local_labels)
-        print(local_batch.dtype, local_labels.dtype, id)
-        exit()

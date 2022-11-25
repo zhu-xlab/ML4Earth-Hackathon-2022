@@ -83,20 +83,3 @@ class YieldDataset(data.Dataset):
         geoid = str(state).zfill(2) + str(county).zfill(3)
 
         return geoid
-
-	
-if __name__ == '__main__':
-    # to run
-    image_folder = '/mnt/c/Users/hoehl/Downloads/Version1/2021/'
-    label_path = "/mnt/c/Users/hoehl/Downloads/corn.csv"
-    crop_type = 1
-    return_id = True
-
-    from torch.utils.data import DataLoader
-    yield_dataset = YieldDataset(image_folder, label_path, crop_type, return_id)
-    training_generator = DataLoader(yield_dataset)
-    # train_features, train_labels = next(iter(training_generator))
-    for local_batch, local_labels, id in training_generator:
-        # print(local_batch, local_labels)
-        print(local_batch.dtype, local_labels.dtype, id)
-        # exit()
