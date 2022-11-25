@@ -241,22 +241,6 @@ Figure 5: Sample images.</strong>
 &nbsp;
 <br />
 
-<div class="center">
-<figure>
-<p align="center">
-<img src="fig_6.jpg"
-id="FIG_6"
-alt="Folder Content." />
-</p>
-</figure>
-</div>
-<p align="center">
-<strong style="color: red; opacity: 0.80;">
-Figure 6: Folder content.</strong>
-</p>
-&nbsp;
-<br />
-
 Optionally, we have provided numpy arrays (*.npy format*) for use where access to high computational power is limited. The arrays were derived by aggregating (averaging) each patch of EO data at locations corresponding to *corn* (also *soybean*). Each array has a dimension of *T x C* representing length of time series (46). Additionally, 3 vegetation indices (*NDVI*, *EVI* and *NDWI*) are pre-computed extending the number of channels from 12 to 15. 
 
 The index of the channels corresponds to the following features.
