@@ -263,4 +263,8 @@ Table 5: Index of features in .npy files.</strong>
 <br />
 
 ## 4. <a id="sec_4" /> Organizing Team
-[Adrian Höhl](mailto:adrian.hoehl@tum.de?subject=[GitHub]ML4Earth-Hackathon-2022), [Stella Ofori-Ampofo](mailto:stella.ofori-ampofo@tum.de?subject=[GitHub]-ML4Earth-Hackathon-2022), Ivica Obadic, Ridvan Salih Kuzu, Andrés Camero
+* [Adrian Höhl](mailto:adrian.hoehl@tum.de?subject=[GitHub]ML4Earth-Hackathon-2022) - PhD Candidate @ Technical University of Munich (TUM)
+* [Stella Ofori-Ampofo](mailto:stella.ofori-ampofo@tum.de?subject=[GitHub]-ML4Earth-Hackathon-2022) - PhD Candidate @ Technical University of Munich (TUM)
+* [Ivica Obadic](mailto:ivica.obadic@tum.de?subject=[GitHub]-ML4Earth-Hackathon-2022) - PhD Candidate @ Technical University of Munich (TUM)
+* [Rıdvan Salih Kuzu](https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-dlr/index.html) - Helmholtz AI consultant @ German Aerospace Center (DLR)
+* [Andrés Camero](https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-dlr/index.html) - Helmholtz AI consultant team leader @ German Aerospace Center (DLR)
