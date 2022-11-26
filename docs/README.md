@@ -41,6 +41,7 @@ The challenge is to predict crop yields using machine learning and remote sensin
         - [2.d. Yield data](#sec_2d)
         - [2.e. Geometry](#sec_2e)     
    - [3. Data Directory](#sec_3)
+   - [4. Organizing Team](#sec_4)
     
     
 
@@ -260,3 +261,6 @@ Table 5: Index of features in .npy files.</strong>
 </p>
 &nbsp;
 <br />
+
+## 4. <a id="sec_4" /> Organizing Team
+[Adrian Höhl](mailto:adrian.hoehl@tum.de?subject=[GitHub]ML4Earth-Hackathon-2022), [Stella Ofori-Ampofo](mailto:stella.ofori-ampofo@tum.de?subject=[GitHub]-ML4Earth-Hackathon-2022), Ivica Obadic, Ridvan Salih Kuzu, Andrés Camero
