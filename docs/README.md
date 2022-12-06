@@ -42,9 +42,8 @@ The challenge is to predict crop yields using machine learning and remote sensin
         - [2.e. Geometry](#sec_2e)     
    - [3. Data Directory](#sec_3)
    - [4. Organizing Team](#sec_4)
+   - [5. Terms of Use](#sec_5)
     
-    
-
 
 ## 1. <a id="sec_1" /> Area of interest (ROI)
 This section describes the ROI of satellite and climate data amassed for the [ML4Earth Hackathon](https://ml4earth.devpost.com/). The data covers top five corn growing states (Iowa, Illinois, Nebraska, Minnesota, Indiana) in the USA (Fig. [1](#FIG_1), [2](#FIG_2)) and it is temporally available from 2003 to 2021. Other dominant crops cultivated are soyabean and winter wheat.  The selected states also exhibit varying climatic characteristics (Fig. [3](#FIG_3))
@@ -268,3 +267,6 @@ Table 5: Index of features in .npy files.</strong>
 * [Ivica Obadic](mailto:ivica.obadic@tum.de?subject=[GitHub]-ML4Earth-Hackathon-2022) - PhD Candidate @ Technical University of Munich (TUM)
 * [Rıdvan Salih Kuzu](https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-dlr/index.html) - Helmholtz AI consultant @ German Aerospace Center (DLR)
 * [Andrés Camero](https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-dlr/index.html) - Helmholtz AI consultant team leader @ German Aerospace Center (DLR)
+
+## 5. <a id="sec_5" /> Terms of Use
+The data is from an on-going project at TUM AI4EO. Only a subset has been released for the hackathon. Kindly use it only for the purpose for which it was provided.
